@@ -5,10 +5,10 @@ import (
 	"time"
 )
 
-func init() {
-	go load()
-	countUntil(5)
-}
+// func init() {
+// 	go load()
+// 	countUntil(5)
+// }
 
 func load() {
 	for {
